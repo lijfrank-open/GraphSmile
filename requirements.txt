@@ -1,0 +1,6 @@
+numpy==2.2.2
+pandas==2.2.3
+scikit_learn==1.6.1
+tensorboardX==2.6.2.2
+tensorboardX==2.6.2.2
+torch==2.0.0+cu117
