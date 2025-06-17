@@ -1,5 +1,5 @@
 # GraphSmile
-The official implementation of the paper "[Tracing intricate cues in dialogue: Joint graph structure and sentiment dynamics for multimodal emotion recognition](https://arxiv.org/abs/2407.21536)", which has been accepted by.  
+The official implementation of the paper "[Tracing intricate cues in dialogue: Joint graph structure and sentiment dynamics for multimodal emotion recognition](https://doi.org/10.1109/TPAMI.2025.3581236)", which has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).  
 Authors: Jiang Li, Xiaoping Wang, Zhigang Zeng  
 Affiliation: Huazhong University of Science and Technology (HUST)  
 
@@ -9,11 +9,11 @@ Affiliation: Huazhong University of Science and Technology (HUST)
     title={Tracing intricate cues in dialogue: Joint graph structure and sentiment dynamics for multimodal emotion recognition},
     author={Jiang Li and Xiaoping Wang and Zhigang Zeng},
     year={2025},
-    journal = {},
+    journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
     volume = {},
     number={},
     pages = {1-18},
-    doi={}
+    doi={10.1109/TPAMI.2025.3581236}
 }
 ```
 
@@ -54,7 +54,7 @@ python -u run.py --gpu 2 --port 1532 --classify emotion \
 --win 3 3 --heter_n_layers 5 5 5 --drop 0.2 --shift_win 3 --lambd 1.0 0.5 0.2
 ```
 
-### CMUMOSEI7
+### CMUMOSEI
 ```bash
 python -u run.py --gpu 3 --port 1534 --classify emotion \
 --dataset CMUMOSEI7 --epochs 60 --textf_mode textf0 \
